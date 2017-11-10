@@ -1,0 +1,218 @@
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.navbar{
+		height: 50px;
+		background-color: white !important;
+	}
+	.topic{
+		font-size: 16px;
+		color: green;
+		margin-left: 235px;
+	}
+	.search{
+		width: 100px !important;
+	}
+	.ban{
+		color: black !important;
+	}
+	.ban h5 span,.ban h5 p{
+		float: left;
+		position: relative;
+		left: 50%;
+		margin-left: -40px;
+	}
+	.ban h5 p{
+		width: 110px;
+	}
+	.adv{
+		margin: 50px  0;
+	}
+	
+	.load{
+		color: blue;
+		cursor: pointer;
+	}
+	.un>div{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.pic>div{
+		padding: 0;	
+	}
+	.pic img{
+		width: 100%;
+	}
+	.under1,.under2{
+		background-color: #F5F5F5;
+	}
+	.under1 p{
+		margin-top: 30px;
+	}
+	.newP{
+		margin: 50px 0;
+	}
+	.under2{
+		padding-bottom: 30px;
+		font-size: 10px;
+    	color: #737b85;
+	}
+	.under2 a{
+		font-size: 10px;
+    	color: #737b85;
+	}
+	/*导航*/
+	.search:hover{
+		width: 200px !important;
+	}
+	.row>li:nth-of-type(1):hover{
+		border-bottom: 2px solid black;
+	}
+	.row>li:nth-of-type(2):hover{
+		border-bottom: 2px solid black;
+	}
+	.row>li:nth-of-type(3):hover{
+		border-bottom: 2px solid black;
+	}
+	/*广告图*/
+	.adv .thumbnail,.adv1 .thumbnail{
+		overflow: hidden;
+	}
+	.adv img,.adv1 img{
+		transition: 1s;
+	}
+	/**/
+	.adv1{
+		display: none;
+	}
+	.adv img:hover,.adv1 img:hover{
+		cursor: pointer;
+		transform: scale(1.1);
+	}
+	/*新产品广告图*/
+	.newP img:hover{
+		cursor: pointer;
+	}
+	.newP .img{
+		width: 155px;
+		height: 155px;	
+		transition: 1s;
+		cursor: pointer;
+	}
+	/**/
+	.new0 .img{
+		background: url('../img/clo00.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new0:hover .img{
+		background: url('../img/clo01.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new1 .img{
+		background: url('../img/clo10.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new1:hover .img{
+		background: url('../img/clo11.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new2 .img{
+		background: url('../img/clo20.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new2:hover .img{
+		background: url('../img/clo21.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new3 .img{
+		background: url('../img/clo30.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new3:hover .img{
+		background: url('../img/clo31.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new4 .img{
+		background: url('../img/clo40.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new4:hover .img{
+		background: url('../img/clo41.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new5 .img{
+		background: url('../img/clo50.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new5:hover .img{
+		background: url('../img/clo51.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new6 .img{
+		background: url('../img/clo60.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new6:hover .img{
+		background: url('../img/clo61.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new7 .img{
+		background: url('../img/clo70.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new7:hover .img{
+		background: url('../img/clo71.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new8 .img{
+		background: url('../img/clo80.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new8:hover .img{
+		background: url('../img/clo81.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new9 .img{
+		background: url('../img/clo90.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	.new9:hover .img{
+		background: url('../img/clo91.jpg') no-repeat;
+		background-size: 155px 155px;
+	}
+	
+	.footpic a{
+		height: 17px;
+		color: #b2b2b2;
+		text-decoration: none;
+		background: url('../img/spr.png');
+		display: block;
+		float: left;
+		margin-right: 20px;
+	}
+	.footpic>a:nth-of-type(1){
+		width: 8px;
+	    background-position: 0 0;
+	}
+	.footpic>a:nth-of-type(2){
+		width: 15px;
+		background-position: 0 -20px;
+	}
+	.footpic>a:nth-of-type(3){
+		width: 22px;
+		background-position: 0 -80px;
+	}
+	.btn-primary{
+		width: 18px;
+		height: 17px;
+		border: none !important;
+		padding: 0 !important;
+		background-color:  #F5F5F5 !important;
+		background: url('../img/weixinlogo.jpg') no-repeat !important;
+		background-size: 18px 17px !important;
+	}
+	.modal-body img{
+		width: 300px;
+	}

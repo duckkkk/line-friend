@@ -1,0 +1,127 @@
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.navbar{
+		height: 50px;
+		background-color: white !important;
+	}
+	.topic{
+		font-size: 16px;
+		color: green;
+		margin-left: 235px;
+	}
+	.search{
+		width: 100px !important;
+	}
+	/*导航*/
+	.search:hover{
+		width: 200px !important;
+	}
+	.row>li:nth-of-type(1):hover{
+		border-bottom: 2px solid black;
+	}
+	.row>li:nth-of-type(2):hover{
+		border-bottom: 2px solid black;
+	}
+	.row>li:nth-of-type(3):hover{
+		border-bottom: 2px solid black;
+	}
+	
+	
+	.load{
+		margin-top: 100px;
+	}
+	.load>div>div>button{
+		width: 270px;
+		height: 45px;
+		margin:10px 0;
+		border: none;
+	}
+	.wx>div>button{
+		background-color: #12d74f;
+	}
+	.wx>div>button:hover{
+		background-color: #00AB5B;
+	}
+	.qq>div>button{
+		background-color: #2ddb0f;
+	}
+	.qq>div>button:hover{
+		background-color: #23CC57;
+	}
+	.wb>div>button{
+		background-color: #3f6abc;
+	}
+	.zhuce{
+		margin-top: 30px;
+		margin-bottom: 100px ;
+	}
+	.fangshi li{
+		float: left;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+	.zhanghao,.erweima{
+		height: 178px;
+	}
+	.zhanghao li{
+		/*margin: 10px 0;*/
+	}
+	.activefs{
+		border-bottom: 2px solid orange;
+	}
+	.erweima{
+		display: none;
+	}
+	.wx img,.qq img{
+		width: 163px;
+	}
+	
+	
+	.under2{
+		padding-top:30px ;
+		padding-bottom:30px ;
+		font-size: 10px;
+    	color: #737b85;
+		background-color: #fafafa;
+	}
+	.under2 a{
+		font-size: 10px;
+    	color: #737b85;
+	}
+	
+	.footpic a{
+		height: 17px;
+		color: #b2b2b2;
+		text-decoration: none;
+		background: url('../img/spr.png');
+		display: block;
+		float: left;
+		margin-right: 20px;
+	}
+	.footpic>a:nth-of-type(1){
+		width: 8px;
+	    background-position: 0 0;
+	}
+	.footpic>a:nth-of-type(2){
+		width: 15px;
+		background-position: 0 -20px;
+	}
+	.footpic>a:nth-of-type(3){
+		width: 22px;
+		background-position: 0 -80px;
+	}
+	.footpic .btn-primary{
+		width: 18px;
+		height: 17px;
+		border: none !important;
+		padding: 0 !important;
+		background-color:  #F5F5F5 !important;
+		background: url('../img/weixinlogo.jpg') no-repeat !important;
+		background-size: 18px 17px !important;
+	}
+	.footpic .modal-body img{
+		width: 300px;
+	}

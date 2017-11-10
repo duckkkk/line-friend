@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/product.css"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="../bootstrap/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/product.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--导航-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container" >
+				<!--小屏幕折叠导航-->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			       </button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav row">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">类别 <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">整个/打折</a></li>
+								<li><a href="#">角色</a></li>
+								<li><a href="#">娃娃玩具</a></li>
+								<li><a href="#">文具</a></li>
+								<li><a href="#">数字/家电</a></li>
+								<li><a href="#">服装</a></li>
+								<li><a href="#">首饰/杂货</a></li>
+								<li><a href="#">婴儿/音乐</a></li>
+								<li><a href="#">旅行/露营</a></li>
+								<li><a href="#">办公室</a></li>
+								<li><a href="#">装修/织物</a></li>
+								<li><a href="#">生活/厨房/浴室</a></li>
+							</ul>
+						</li>
+						<li >
+							<a href="#">卖场中心<span class="sr-only">(current)</span></a>
+						</li>
+						<li>
+							<a href="#">客户服务中心</a>
+						</li>
+						<li class="topic">
+							<a href="index.html"><strong>LINE FRIEND</strong></a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="load.html">登录</a></li>
+								<li><a href="#">会员注册</a></li>
+								<li><a href="#">订单/送货</a></li>
+								<li><a href="#">账户</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-right ">
+						<div class="form-group row">
+							<input type="text" class="form-control search " placeholder="搜索">
+						</div>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!--图片-->
+		<div class="container shop">
+			<div class="row">
+				<!--展示图-->
+				<div class="col-lg-7 col-sm-12 col-xs-12">
+					<div class="minipic ">
+						<ul>
+							<li class="act"><img src="../img/sally01-small.jpg" /></li>
+							<li><img src="../img/sally02-small.jpg" /></li>
+							<li><img src="../img/sally03small.jpg"/></li>
+							<li><img src="../img/sally04small.jpg"/></li>
+						</ul>
+					</div>
+					<div class="bigpic">
+						<ul>
+							<li><img src="../img/sally01.jpg"/></li>
+							<li><img src="../img/sally02.jpg"/> </li>
+							<li><img src="../img/sally03.jpg"/> </li>
+							<li><img src="../img/sally04.jpg"/> </li>
+						</ul>
+					</div>
+				</div>
+				<!--选购-->
+				<div class="col-lg-4 col-sm-12 col-xs-12 col-lg-offset-1 ">
+					<h3><strong>空气新鲜莎莉花园补充（2件）</strong><br /><small><strong>11,900韩元</strong></small></h3>
+					<p>这是一个清爽和放松的花园香味类似于萨莉。 请参阅包装背面的说明，请使用夹式香水身体。 任何字符设计都具有相同的装配方式。</p>
+					<p>两个配置墨盒补充</p>
+					<p>购买莎莉的香水身体></p>
+					<a href="offical web .html" target="_blank">更多产品</a>
+					<hr />
+					<div class="row">
+						<div class="col-md-2 ">
+							<strong>数量</strong>
+						</div>
+						<div class="col-md-4 col-md-offset-6">
+							<span class="glyphicon glyphicon-minus minus"></span>&nbsp;
+							<input type="text" name="count" id="count" value="0" />
+							<span class="glyphicon glyphicon-plus plus"></span>
+						</div>
+					</div>
+					<hr />
+					<div class="row">
+						<div class="col-md-2 ">
+							<span><strong>总价</strong></span>
+						</div>
+						<div class="col-md-3 col-md-offset-5">
+							<input type="text" disabled id="money" value="0韩元" />
+						</div>
+					</div>
+					<hr />
+					<button class="btn btn-default btn-lg"><img src="../img/btn_icon_cart.png"/ class="dianhua">购物车</button>
+					<!--<button class="btn btn-default btn-success btn-lg">立即购买</button>-->
+					<!--模态框-->
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+					  立即购买
+					</button>
+					<!-- Modal -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="myModalLabel">提示</h4>
+								</div>
+								<div class="modal-body">
+									购买请先登录！
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+									<button type="button" class="btn btn-primary load" data-dismiss="modal">登录</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!---->
+			</div>
+			
+		</div>
+		<!--table-->
+		<div class="container-fluid xinxi">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-lg-6 col-lg-offset-1">
+					<h4>产品/运输信息</h4>
+					<hr />
+					<table>
+						<thead>
+							<th>产品信息</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>产品名称/型号名称</td>
+								<td>空气新鲜莎莉花园补充（2件）</td>
+							</tr>
+							<tr>
+								<td>同一型号的发布日期</td>
+								<td>2017年9月</td>
+							</tr>
+							<tr>
+								<td>KC认证要求</td>
+								<td>自检号D-A09B-A062001-A160</td>
+							</tr>
+							<tr>
+								<td>制造商/进口商</td>
+								<td>Estee韩国</td>
+							</tr>
+							<tr>
+								<td>原产地</td>
+								<td>韩国</td>
+							</tr>
+							<tr>
+								<td>产品尺寸</td>
+								<td>80 x 150 x 27mm（包装尺寸）<br />80 x 150 x 27mm（产品尺寸）</td>
+							</tr>
+							<tr>
+								<td>产品重量</td>
+								<td>16.2g（包装重量）<br />4.8g（产品重量）</td>
+							</tr>
+							<tr>
+								<td>适用型号</td>
+								<td>所有型号</td>
+							</tr>
+							<tr>
+								<td>由于产品使用<br /> 危险及通知</td>
+								<td>不适用</td>
+							</tr>
+							<tr>
+								<td>符合质量保证标准</td>
+								<td>相关法律和消费者争议解决标准</td>
+							</tr>
+							<tr>
+								<td>A / S负责人和电话号码</td>
+								<td>线友客户中心1544-5921</td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<thead>
+							<th>运送指南</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>运输标准&nbsp;</td>
+								<td>按订单编号捆绑运送</td>
+							</tr>
+							<tr>
+								<td>发帖</td>
+								<td>1-3个工作日<br /> （按区域，可能在订单激增时延迟）</td>
+							</tr>
+							<tr>
+								<td>公司</td>
+								<td>邮局快递</td>
+							</tr>
+							<tr>
+								<td>运费</td>
+								<td>2,500韩元<br />（订单满3万韩元免运费）</td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<thead>
+							<th>处理注意事项</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>- 请勿使用以外的其他用途，请放在婴儿和儿童接触不到的地方。<br />
+									- 如果眼睛和皮肤的内容接触，立即用自来水冲洗，如果出现问题，请咨询医生。<br />
+									- 如果透明度损坏，请停止使用。<br />
+									- 如果内容物被埋藏，可能会损坏车辆内部材料。<br />
+									- 自动摆动空调请使用摆动停止的车辆。<br />
+									- 根据空调的形状，可能无法安装，也可能在安装产品后难以操作百叶窗。<br />
+									- 使用双面胶带时，将表面轻轻地擦拭到平坦的表面上并牢固固定。<br />
+									- 当在仪表板中使用时，香味的强度可能与在风嘴中使用时的强度不同。</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-3 col-lg-offset-1">
+					<h4>交换/退货</h4>
+					<hr />
+					<p>
+						<strong>交易所/退货期</strong><br />
+						您可以在收货日期后7天内兑换/退货。<br />
+						但是，如果商品与显示的广告内容不同或有缺陷，可以在收到或通知之日起30日内从商品收货之日起3个月内交换/退货。
+					</p><br />
+					<p>
+						<strong>交换/退货</strong><br />
+						- 交换航运：往返5000韩元<br />
+						- 退货运费：往返5000韩元/单程2500韩元<br />
+						如超过标准，可能会发生额外运费。<br />
+						产品故障和运输错误的原因将由Line Friends承担。
+					</p><br />
+					<p>
+						<strong>没有交换/退货</strong><br />
+						在以下情况下，可能无法进行更换/返回。<br />
+						- 如果产品由于您的粗心而丢失或损坏（包装损坏除外以确认产品）<br />
+						- 如果产品的价值因使用或消费而显着降低<br />
+						- 如果产品的价值大大降低，以致随着时间的推移难以将其转售
+					</p>
+					<button class="btn btn-default">了解更多</button>
+					<h4>客户中心</h4>
+					<hr />
+					<p><span class="glyphicon glyphicon-phone-alt phone"></span> 1544-5921</p>
+					<p>平日从9:00到18:00（周六和节假日休息）</p>
+					<button class="btn btn-default">联系我们</button>
+				</div>
+			</div>
+		</div>
+		<!--问题中心-->
+		<!--<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-lg-5 col-lg-offset-1">
+					<h3>Q&A</h3>				
+				</div>
+				<div class="col-lg-5">
+					dsgdfg
+				</div>
+			</div>
+		</div>-->
+		<!--底部导航-->
+		<div class="container-fluid under2">
+			<div class="row">
+				<div class="col-md-3 col-lg-10 col-lg-offset-1">
+					<h5>
+						<a href="offical web .html"> <span class="glyphicon glyphicon-home"></span></a>
+						&rsaquo;产品&nbsp; &rsaquo;全部/销售&nbsp; &rsaquo;所有项目&nbsp; &rsaquo;空气新鲜补充莎莉花园香水（2件）
+					</h5> 
+					<hr />
+				</div>
+				<div class="col-lg-5 col-lg-offset-1">
+					<p>
+						<a href="javascript:;">订单交货确认</a> 
+						<a href="javascript:;">退货/换货</a>
+						<a href="javascript:;">常见问题</a>
+					</p>
+					<p>
+						<a href="javascript:;">使用条款</a>
+						<a href="javascript:;">隐私政策</a>
+					</p>
+					<p>
+						线友有限公司| 商业登记号码：726-87-00030 | 电讯销售通知编号：2017-首尔龙山-0174 | 代表：金成勋<br />
+						地址：200线首尔梨山区梨梨道5F 5F 主办提供商：线友<br />
+						linefriends@naver.com |1544-5921<br />
+						&copy;LINE FRIENDS保留所有权利
+					</p>
+					<img src="../img/escrow_43x43_gray.png" />
+				</div>
+				<div class="col-lg-3 col-lg-offset-3">
+					<div class="footpic">
+						<a href="javascript:;"></a>
+						<a href="javascript:;"></a>
+						<a href="http://weibo.com/linefriendschina" target="_blank"></a>
+						<!--微信二维码：模态框-->
+						<button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#myModal1">
+						<a href="javascript:;"></a>
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel">提示</h4>
+									</div>
+									<div class="modal-body text-center">
+										<p>扫描二维码关注公众号</p>
+										<img src="../img/weixin.jpg" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
